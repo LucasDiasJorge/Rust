@@ -1,32 +1,21 @@
+use std::io;
+
 fn main() {
-    
-    another_function(5);
-    print_labeled_measurement(5, 'h');
+    println!("Digite um número para calcular o número correspondente na sequência de Fibonacci:");
 
-    let x = five();
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Erro ao ler entrada");
 
-    println!("The value of x is: {x}");
+    let n: i32 = input.trim().parse().expect("Entrada inválida");
 
-    let y = plus_one(5);
-
-    println!("The value of y is: {y}");
-
+    let fib = fibonacci(n);
+    println!("O {}-ésimo número de Fibonacci é {}", n, fib);
 }
 
-//Parameters
-fn another_function(z: i32) {
-    println!("The value of z is: {z}");
-}
-
-fn print_labeled_measurement(value: i32, unit_label: char) {
-    println!("The measurement is: {value}{unit_label}");
-}
-
-// Functions with Return Values
-fn five() -> i32 {
-    return 5;
-}
-
-fn plus_one(x: i32) -> i32 {
-    x + 1
+fn fibonacci(n: i32) -> i32 {
+    if n <= 1 {
+        return n;
+    } else {
+        fibonacci(n - 1) + fibonacci(n - 2)
+    }
 }

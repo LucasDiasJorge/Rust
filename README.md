@@ -37,3 +37,7 @@ Conclusão
 A escolha entre C e Rust depende dos requisitos específicos do projeto. Se o desempenho é a principal prioridade e os programadores estão dispostos a lidar com desafios de segurança, C pode ser uma escolha adequada. No entanto, se a segurança e a produtividade são fundamentais, Rust é uma opção atraente. Em última análise, ambas as linguagens têm seu lugar no desenvolvimento de software, e a decisão deve ser baseada nas necessidades individuais do projeto.
 
 É importante notar que a migração de um projeto de C para Rust pode ser uma opção viável, aproveitando as vantagens de segurança e produtividade oferecidas por Rust, enquanto ainda mantém um desempenho sólido.
+
+# GPIO in Rasp Pi
+
+https://crates.io/crates/wiringpi

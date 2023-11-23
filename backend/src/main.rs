@@ -11,7 +11,7 @@ async fn main() -> std::io::Result<()> {
         App::new()
             .service(web::resource("/user/{id}").route(web::get().to(controllers::get_user_by_id)))
     })
-    .bind("10.0.1.133:8080")?
+    .bind("{your_ip}:8080")?
     .run()
     .await
 }

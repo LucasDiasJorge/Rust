@@ -41,3 +41,7 @@ A escolha entre C e Rust depende dos requisitos específicos do projeto. Se o de
 # GPIO in Rasp Pi
 
 https://crates.io/crates/wiringpi
+
+# Ref Doc
+
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://lise-henry.github.io/books/trpl2.pdf&ved=2ahUKEwiqiLOpjeyCAxVwp5UCHbZuBiAQFnoECAoQAQ&usg=AOvVaw3JfINQI9HpeBI2fOHtBXa1

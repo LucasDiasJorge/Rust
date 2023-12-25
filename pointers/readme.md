@@ -26,3 +26,5 @@ O projeto é estruturado em uma série de lições progressivas, cada uma cobrin
     Referências e Ponteiros em Structs e Enums
         Utilização de ponteiros em tipos de dados mais complexos.
         Exemplos de como os ponteiros podem ser incorporados em structs e enums.
+
+[Roteiro do projeto, atualizações em breve]
